@@ -1,34 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Enterprise Dashboard
+
+Admin dashboard built on Next.js + MUI template — finance, investments, estate and career management pages.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![MUI](https://img.shields.io/badge/MUI-007FFF?style=flat&logo=mui&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+
+## About
+
+Admin panel built on top of the Next.js + MUI template. Extended with custom dashboard pages for finance, investments, real estate, career listings, news and support.
+
+## Pages
+
+| Page | Description |
+|---|---|
+| **Login** | Admin authentication |
+| **Home** | Dashboard overview |
+| **Finance** | Financial data and charts |
+| **Investments** | Investment portfolio overview |
+| **Estate** | Real estate listings |
+| **Career** | Career management |
+| **News** | News section |
+| **Support** | Support management |
+
+## Features
+
+- **MUI + Tailwind** — combined component and utility styling
+- **ApexCharts** — interactive data charts
+- **Iconify** — bundled icon set with CSS generation
+- **Keen Slider** — touch-friendly carousels
+- **React Dropzone** — file upload components
+- **React Colorful** — color picker
+- **Toast notifications** — via react-toastify
+- **RTL support** — stylis-plugin-rtl included
+- **Next.js App Router** — grouped layouts for dashboard and blank pages
+
+## Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| Next.js 14 | React framework |
+| TypeScript | Type safety |
+| MUI | Component library |
+| Tailwind CSS | Utility styling |
+| ApexCharts | Data visualization |
+| Iconify | Icon set |
+| Keen Slider | Carousels |
+| ESLint / Stylelint | Code quality |
+| Prettier | Code formatting |
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+
+# Build for production
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Author
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Developed by **Ihor Yanchuk**
+[Portfolio](https://github.com/Vergos1) · [GitHub](https://github.com/Vergos1)
